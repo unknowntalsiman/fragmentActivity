@@ -20,8 +20,7 @@ class ColorFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_color, container, false).apply {
             findViewById<Spinner>(R.id.spinner).apply{
                 adapter = ArrayAdapter(context, android.R.layout.simple_spinner_item,
-                    arrayOf("Blue", "Red", "White", "Black", "Magenta")
-                )
+                    arrayOf("Blue", "Red", "White", "Black", "Magenta"))
 
             }
         }
